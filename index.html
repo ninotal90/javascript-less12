@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="form-section">
+      <!-- form validation -->
+      <form action="" id="registration-form" method="post">
+        <div>
+          <label for="username-field">Username</label>
+          <input type="text" name="username" id="username-field" />
+          <p class="error-text" id="error-username"></p>
+        </div>
+        <div>
+          <label for="password-field">Password</label>
+          <input type="password" name="password" id="password-field" />
+          <i id="toggleIcon" class="fa-solid fa-eye"></i>
+          <p class="error-text" id="error-password"></p>
+        </div>
+        <div>
+          <label for="password-field2">Password</label>
+          <input type="password" name="password2" id="password-field2" />
+          <p class="error-text" id="error-password2"></p>
+        </div>
+        <div>
+          <label for="emailField">Email</label>
+          <input type="email" id="emailField" name="myemail" />
+          <p class="error-email"></p>
+        </div>
+        <div>
+          <input type="radio" name="age" id="age1" />
+          <label for="age1">18-25</label>
+          <input type="radio" name="age" id="age2" />
+          <label for="age1">26-35</label>
+          <input type="radio" name="age" id="age3" />
+          <label for="age1">35-45</label>
+          <p class="error-text" id="error-age"></p>
+        </div>
+        <div>
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="agree">I Agree Terms And Conditions </label>
+          <p class="error-text" id="error-agree"></p>
+        </div>
+        <div>
+          <input type="submit" class="validateBtn" value="Submit" />
+        </div>
+      </form>
+    </section>
+
+    <!-- filter with async  -->
+    <section>
+      <div class="conteiner-filter">
+        <div class="search-block">
+          <label for="search-field">Search</label>
+          <input type="search" id="search" />
+        </div>
+        <ul id="results" class="ul-item-list"></ul>
+        </div>
+        
+    </section>
+
+    <script src="form.js"></script>
+  </body>
+</html>

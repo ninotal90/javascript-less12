@@ -1,0 +1,42 @@
+.form-section {
+    width: 300px;
+    height: auto;
+    background-color: aquamarine;
+    margin-top: 20px;
+    padding: 20px 10px;
+    
+}
+div {
+    margin-bottom: 10px;
+}
+.validateBtn {
+    width: 120px;
+    height: auto;
+    background-color: black;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.error-text {
+    color: red;
+}
+.conteiner-filter {
+    padding: 10px 5px;
+    margin-top: 30px;
+    width: 200px;
+    height: auto;
+    background-color: aquamarine;
+}
+
+.ul-item-list {
+    margin-top: 10px;
+}
+.ul-item-list li.hide {
+    display: none;
+}
+.image {
+    width: 50px;
+    border-radius: 50%;
+}
